@@ -1,0 +1,16 @@
+﻿  Reading Qt configuration (C:\Qt\5.9.8\msvc2015\bin\qmake.exe)
+  uic clientMain.ui
+  uic serverMain.ui
+  uic startWindow.ui
+  moc serverMain.h
+  moc startWindow.h
+  moc clientMain.h
+  clientMain.cpp
+  main.cpp
+  serverMain.cpp
+  startWindow.cpp
+  moc_serverMain.cpp
+  moc_startWindow.cpp
+  moc_clientMain.cpp
+  MKShare.vcxproj -> C:\Users\parkp\Desktop\MKShare\MKShare\Win32\Debug\MKShare.exe
+  MKShare.vcxproj -> C:\Users\parkp\Desktop\MKShare\MKShare\Win32\Debug\MKShare.pdb (Full PDB)

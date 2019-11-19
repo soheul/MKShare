@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="MainFilter">
+      <UniqueIdentifier>{ea70b1dc-a33c-4ac5-80df-ad37dc44fb41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainFilter\Core">
+      <UniqueIdentifier>{f053832e-86f8-40e9-9f65-041b31de9ded}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainFilter\Src">
+      <UniqueIdentifier>{5254588a-1805-4516-8efc-f8290cda6035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainFilter\UI">
+      <UniqueIdentifier>{9d855fb7-ac77-4f8e-a0f1-027d6712bdf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainFilter\UI\Form">
+      <UniqueIdentifier>{dda4eddd-a235-4d07-8766-81f709a837c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainFilter\Lib">
+      <UniqueIdentifier>{f415ae4e-de0d-45c8-b3a4-f087e994879d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>MainFilter\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="clientMain.cpp">
+      <Filter>MainFilter\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="serverMain.cpp">
+      <Filter>MainFilter\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="startWindow.cpp">
+      <Filter>MainFilter\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="clientMain.h">
+      <Filter>MainFilter\UI</Filter>
+    </QtMoc>
+    <QtMoc Include="serverMain.h">
+      <Filter>MainFilter\UI</Filter>
+    </QtMoc>
+    <QtMoc Include="startWindow.h">
+      <Filter>MainFilter\UI</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="MKShare.ui">
+      <Filter>MainFilter\UI\Form</Filter>
+    </QtUic>
+    <QtUic Include="serverMain.ui">
+      <Filter>MainFilter\UI\Form</Filter>
+    </QtUic>
+    <QtUic Include="startWindow.ui">
+      <Filter>MainFilter\UI\Form</Filter>
+    </QtUic>
+    <QtUic Include="clientMain.ui">
+      <Filter>MainFilter\UI\Form</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="MKShare.qrc">
+      <Filter>MainFilter\Src</Filter>
+    </QtRcc>
+  </ItemGroup>
+</Project>
