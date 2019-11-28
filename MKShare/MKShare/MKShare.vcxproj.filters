@@ -23,11 +23,27 @@
     <Filter Include="MainFilter\UI">
       <UniqueIdentifier>{9d855fb7-ac77-4f8e-a0f1-027d6712bdf1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="MainFilter\UI\Form">
-      <UniqueIdentifier>{dda4eddd-a235-4d07-8766-81f709a837c8}</UniqueIdentifier>
-    </Filter>
     <Filter Include="MainFilter\Lib">
       <UniqueIdentifier>{f415ae4e-de0d-45c8-b3a4-f087e994879d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="MainFilter\Lib\base">
+      <UniqueIdentifier>{3562f26e-2854-4216-a2a3-bcbf1733020c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainFilter\Lib\common">
+      <UniqueIdentifier>{30d6ae6d-fe35-4ae9-9ab7-127c3303ed77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainFilter\UI\UI_Form">
+      <UniqueIdentifier>{dda4eddd-a235-4d07-8766-81f709a837c8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -43,6 +59,9 @@
     <ClCompile Include="startWindow.cpp">
       <Filter>MainFilter\UI</Filter>
     </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>MainFilter\Lib\base</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="clientMain.h">
@@ -57,21 +76,71 @@
   </ItemGroup>
   <ItemGroup>
     <QtUic Include="MKShare.ui">
-      <Filter>MainFilter\UI\Form</Filter>
+      <Filter>MainFilter\UI\UI_Form</Filter>
     </QtUic>
     <QtUic Include="serverMain.ui">
-      <Filter>MainFilter\UI\Form</Filter>
+      <Filter>MainFilter\UI\UI_Form</Filter>
     </QtUic>
     <QtUic Include="startWindow.ui">
-      <Filter>MainFilter\UI\Form</Filter>
+      <Filter>MainFilter\UI\UI_Form</Filter>
     </QtUic>
     <QtUic Include="clientMain.ui">
-      <Filter>MainFilter\UI\Form</Filter>
+      <Filter>MainFilter\UI\UI_Form</Filter>
     </QtUic>
   </ItemGroup>
   <ItemGroup>
     <QtRcc Include="MKShare.qrc">
       <Filter>MainFilter\Src</Filter>
     </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Event.h">
+      <Filter>MainFilter\Lib\base</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>MainFilter\Lib\common</Filter>
+    </ClInclude>
+    <ClInclude Include="stdmap.h">
+      <Filter>MainFilter\Lib\common</Filter>
+    </ClInclude>
+    <ClInclude Include="stdpost.h">
+      <Filter>MainFilter\Lib\common</Filter>
+    </ClInclude>
+    <ClInclude Include="stdpre.h">
+      <Filter>MainFilter\Lib\common</Filter>
+    </ClInclude>
+    <ClInclude Include="stdbitset.h">
+      <Filter>MainFilter\Lib\common</Filter>
+    </ClInclude>
+    <ClInclude Include="stddeque.h">
+      <Filter>MainFilter\Lib\common</Filter>
+    </ClInclude>
+    <ClInclude Include="stdexcept.h">
+      <Filter>MainFilter\Lib\common</Filter>
+    </ClInclude>
+    <ClInclude Include="stdfstream.h">
+      <Filter>MainFilter\Lib\common</Filter>
+    </ClInclude>
+    <ClInclude Include="stdistream.h">
+      <Filter>MainFilter\Lib\common</Filter>
+    </ClInclude>
+    <ClInclude Include="stdlist.h">
+      <Filter>MainFilter\Lib\common</Filter>
+    </ClInclude>
+    <ClInclude Include="stdostream.h">
+      <Filter>MainFilter\Lib\common</Filter>
+    </ClInclude>
+    <ClInclude Include="stdset.h">
+      <Filter>MainFilter\Lib\common</Filter>
+    </ClInclude>
+    <ClInclude Include="stdsstream.h">
+      <Filter>MainFilter\Lib\common</Filter>
+    </ClInclude>
+    <ClInclude Include="stdstring.h">
+      <Filter>MainFilter\Lib\common</Filter>
+    </ClInclude>
+    <ClInclude Include="stdvector.h">
+      <Filter>MainFilter\Lib\common</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
